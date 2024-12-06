@@ -1,0 +1,54 @@
+{
+  "imports": {
+    "@std/uuid": "jsr:@std/uuid@^1.0.4"
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ],
+      "include": [
+        "verbatim-module-syntax",
+        "triple-slash-reference",
+        "single-var-declarator",
+        "prefer-ascii",
+        "no-undef",
+        "no-throw-literal",
+        "no-sync-fn-in-async-fn",
+        "no-sparse-arrays",
+        "no-self-compare",
+        "no-non-null-assertion",
+        "no-non-null-asserted-optional-chain",
+        "no-inferrable-types",
+        "no-implicit-declare-namespace-export",
+        "no-external-import",
+        "no-eval",
+        "no-const-assign",
+        "no-console",
+        "no-boolean-literal-for-arguments",
+        "no-await-in-loop",
+        "guard-for-in",
+        "eqeqeq",
+        "default-param-last",
+        "camelcase",
+        "ban-untagged-todo"
+      ]
+    }
+  },
+  "fmt": {
+    "singleQuote": true
+  },
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false
+  }
+}
+
